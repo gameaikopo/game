@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>🎮 도파민 버튼 테스트</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background: radial-gradient(circle at center, #1e1f29, #111);
+      color: white;
+      font-family: 'Noto Sans', sans-serif;
+      overflow: hidden;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      text-shadow: 0 0 10px #00bcd4;
+    }
+    #score {
+      font-size: 4rem;
+      margin: 20px;
+      transition: transform 0.2s ease, color 0.2s ease;
+    }
+    button {
+      background: linear-gradient(135deg, #00bcd4, #2196f3);
+      border: none;
+      padding: 20px 50px;
+      font-size: 1.8rem;
+      border-radius: 15px;
+      color: white;
+      cursor: pointer;
+      box-shadow: 0 0 20px rgba(0, 188, 212, 0.6);
+      transition: all 0.2s;
+    }
+    button:hover {
+      transform: scale(1.08);
+      box-shadow: 0 0 30px rgba(0, 188, 212, 1);
+    }
+    #auto-score {
+      margin-top: 1rem;
+      font-size: 1rem;
+      color: #bbb;
+    }
+    .flash {
+      animation: flash 0.2s ease;
+    }
+    @keyframes flash {
+      0% { background: #00bcd4; }
+      50% { background: #76ff03; }
+      100% { background: #00bcd4; }
+    }
+    .pop {
+      animation: pop 0.3s ease;
+    }
+    @keyframes pop {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.3); color: #76ff03; }
+      100% { transform: scale(1); color: white; }
+    }
+  </style>
+</head>
+<body>
+  <h1>🎯 도파민 버튼 실험 🎯</h1>
+  <div id="score">0</div>
+  <button id="click-btn">클릭!</button>
+  <p id="auto-score">⏱️ 3초마다 자동으로 점수가 +1 올라갑니다.</p>
+
+  <!-- 짧은 효과음 (무료 오픈 사운드, 온라인에서 자동 재생 가능) -->
+  <audio id="click-sound" src="https://actions.google.com/sounds/v1/cartoon/wood_plank_flicks.ogg" preload="auto"></audio>
+  <audio id="auto-sound" src="https://actions.google.com/sounds/v1/cartoon/clang_and_wobble.ogg" preload="auto"></audio>
+
+  <script>
+    let score = 0;
+    const scoreDisplay = document.getElementById("score");
+    const button = document.getElementById("click-btn");
+    const clickSound = document.getElementById("click-sound");
+    const autoSound = document.getElementById("auto-sound");
+
+    // 점수 갱신 함수
+    function updateScore(changeBy, sound, animateBtn = true) {
+      score += changeBy;
+      scoreDisplay.textContent = score;
+
+      // 점수 팝 애니메이션
+      scoreDisplay.classList.add("pop");
+      setTimeout(() => scoreDisplay.classList.remove("pop"), 300);
+
+      // 버튼 효과
+      if (animateBtn) {
+        button.classList.add("flash");
+        setTimeout(() => button.classList.remove("flash"), 200);
+      }
+
+      // 사운드 재생
+      sound.currentTime = 0;
+      sound.play();
+    }
+
+    // 클릭 이벤트
+    button.addEventListener("click", () => {
+      updateScore(1, clickSound);
+    });
+
+    // 3초마다 자동 점수 추가
+    setInterval(() => {
+      updateScore(1, autoSound, false);
+    }, 3000);
+  </script>
+</body>
+</html>
