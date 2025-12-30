@@ -51,11 +51,11 @@
    - 실습파일 링크 : https://github.com/LoviceSunuwar/Unity-3D-HyperCasual_MobileGame
    - 유니티 깃허브 : https://github.com/Unity-Technologies
    - 자료링크 :
-               https://projectlearn.io/#categories
-               https://github.com/Xtremilicious/ProjectLearn-Project-Based-Learning
-               https://github.com/StefanoCecere/awesome-opensource-unity
-               https://www.arm.com/search#q=unity
-               https://unity.com/blog/the-game-kitchen-stone-of-madness-3-technical-challenges
+     * https://projectlearn.io/#categories
+     * https://github.com/Xtremilicious/ProjectLearn-Project-Based-Learning
+     * https://github.com/StefanoCecere/awesome-opensource-unity
+     * https://www.arm.com/search#q=unity
+     * https://unity.com/blog/the-game-kitchen-stone-of-madness-3-technical-challenges
 
 
 
