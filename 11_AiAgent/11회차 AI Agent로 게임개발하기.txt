@@ -1,0 +1,6 @@
+11회차 AI Agent로 게임개발하기
+
+유니티 Ai 메뉴얼 : https://docs.unity3d.com/Manual/ai-menu-access.html
+구글 AI Studio > https://aistudio.google.com/
+
+
