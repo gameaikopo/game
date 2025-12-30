@@ -13,4 +13,4 @@
 
 3) 5회차 실습파일 :
    - 사용한 에셋링크 : https://assetstore.unity.com/packages/2d/characters/pixel-adventure-1-155360
-   - 미니게임 예제 다운로드 링크 > https://drive.google.com/file/d/1P8x4SOERhP7kf55WmX7HKXfQZIu0cmk_/view?usp=sharing 
+   - 애니메이션 노드 활용 / 미니게임 예제 다운로드 링크 > https://drive.google.com/file/d/1P8x4SOERhP7kf55WmX7HKXfQZIu0cmk_/view?usp=sharing 
