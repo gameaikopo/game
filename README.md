@@ -18,3 +18,11 @@
 4) 6회차 실습파일 :
    - 무료 Behavior Editor :   https://www.thekiwicoder.com
    - 만드신 프로젝트 폴더 > Assets 폴더 > ai.zip 를 압축풀어서 스크립트 파일을 넣어주세요.
+  
+5) 7회차 실습파일 :
+   - 7회차 AiNPC 폴더를 다운로드 해주세요.
+   - 만드신 프로젝트 폴더 > Assets 폴더안에 [images] 폴더와 [Scripts] 폴더를 넣어주세요.
+   - GPT API 키 > https://platform.openai.com/account/api-keys
+   - 다운로드 > https://github.com/Bunny83/SimpleJSON/blob/master/SimpleJSON.cs
+
+6) 8회차 실습파일 :
