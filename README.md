@@ -45,5 +45,17 @@
 9) 11회차 실습파일 :
    - 유니티 Ai 메뉴얼 : https://docs.unity3d.com/Manual/ai-menu-access.html
    - 구글 AI Studio > https://aistudio.google.com/
+  
+10) 12회차 실습파일 :
+   - 다운받은 파일은 아래 실습파일에서 스크립트 폴더에 덮어쓰기 해주세요.
+   - 실습파일 링크 : https://github.com/LoviceSunuwar/Unity-3D-HyperCasual_MobileGame
+   - 유니티 깃허브 : https://github.com/Unity-Technologies
+   - 자료링크 :
+               https://projectlearn.io/#categories
+               https://github.com/Xtremilicious/ProjectLearn-Project-Based-Learning
+               https://github.com/StefanoCecere/awesome-opensource-unity
+               https://www.arm.com/search#q=unity
+               https://unity.com/blog/the-game-kitchen-stone-of-madness-3-technical-challenges
+
 
 
