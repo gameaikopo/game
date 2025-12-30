@@ -31,5 +31,9 @@
    - https://www.anyrpg.org/ > RPG 게임 다른 예제 파일
    - https://play.unity.com/ko/showcases/GGJ25 > 게임잼 참여하기
 
+7) 9회차 실습파일 :
+   - 활용예제 링크 : https://github.com/RobertG-H/unity-rhythm-engine
+   -  만드신 프로젝트 폴더 > Assets 폴더안에 [Scripts] 폴더에 파일을 덮어쓰기 해주세요.
+
 
 
