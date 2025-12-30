@@ -26,3 +26,6 @@
    - 다운로드 > https://github.com/Bunny83/SimpleJSON/blob/master/SimpleJSON.cs
 
 6) 8회차 실습파일 :
+   - 활용예제 링크 : https://github.com/zachary013/dungeon-adventure-rpg-2d?tab=readme-ov-file#installation
+   - 만드신 프로젝트 폴더 > Assets 폴더안에 [_Scripts] 폴더를 덮어쓰기 해주세요.
+
