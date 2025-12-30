@@ -41,5 +41,9 @@
    - 활용 에셋 링크 : https://assetstore.unity.com/packages/templates/systems/racing-starter-kit-free-169750
    - 폴더 > \Assets\Racing Starter Kit\RSK Assets 안에 [Scripts] 폴더를 덮어쓰기 해주세요.
    - AutoCar.yaml 파일은 만드신 폴더 최상단에 넣어주세요.
+  
+9) 11회차 실습파일 :
+   - 유니티 Ai 메뉴얼 : https://docs.unity3d.com/Manual/ai-menu-access.html
+   - 구글 AI Studio > https://aistudio.google.com/
 
 
