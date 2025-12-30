@@ -34,6 +34,7 @@
 7) 9회차 실습파일 :
    - 활용예제 링크 : https://github.com/RobertG-H/unity-rhythm-engine
    -  만드신 프로젝트 폴더 > Assets 폴더안에 [Scripts] 폴더에 파일을 덮어쓰기 해주세요.
+   -  https://github.com/neogeek/rhythm-game-utilities > 다른 리듬게임 예제
 
 
 
